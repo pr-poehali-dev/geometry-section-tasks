@@ -346,7 +346,7 @@ export default function App() {
           </section>
 
           <section>
-            <h2 className="font-cormorant font-semibold text-3xl text-foreground mb-6">Разделы физики</h2>
+            <h2 className="font-cormorant font-semibold text-3xl text-foreground mb-6">Разделы сечений</h2>
             <div className="flex flex-wrap gap-3">
               {TOPICS.map((t) => (
                 <button

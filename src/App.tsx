@@ -224,9 +224,9 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <button onClick={() => goTo("home")} className="flex items-center gap-3 group">
             <div className="w-8 h-8 bg-foreground rounded-sm flex items-center justify-center">
-              <span className="text-background font-cormorant font-bold text-base leading-none">Ф</span>
+              <span className="text-background font-cormorant font-bold text-base leading-none">G</span>
             </div>
-            <span className="font-cormorant font-semibold text-xl text-foreground tracking-tight">ФизМат</span>
+            <span className="font-cormorant font-semibold text-xl text-foreground tracking-tight">GeoLabe</span>
           </button>
 
           <nav className="hidden md:flex items-center gap-1">
@@ -281,9 +281,9 @@ export default function App() {
             <div className="max-w-3xl">
               <p className="text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-4">Учебный портал</p>
               <h1 className="font-cormorant font-bold text-5xl sm:text-7xl leading-[1.05] text-foreground mb-6">
-                Физика и математика
+                Геометрия сечений —
                 <br />
-                <em className="not-italic text-muted-foreground">без лишнего шума</em>
+                <em className="not-italic text-muted-foreground">от простого к сложному</em>
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-xl mb-8">
                 Структурированные материалы для глубокого понимания предмета. Теория, задачи и чертежи в одном месте.
@@ -610,9 +610,9 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 bg-foreground rounded-sm flex items-center justify-center">
-              <span className="text-background font-cormorant font-bold text-xs">Ф</span>
+              <span className="text-background font-cormorant font-bold text-xs">G</span>
             </div>
-            <span className="font-cormorant font-semibold text-foreground">ФизМат</span>
+            <span className="font-cormorant font-semibold text-foreground">GeoLabe</span>
           </div>
           <p>{THEORY_DATA.length} тем · {TASKS_DATA.length} задач · {DRAWINGS_DATA.length} чертежа</p>
         </div>
